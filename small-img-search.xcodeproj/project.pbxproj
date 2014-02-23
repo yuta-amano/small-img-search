@@ -18,6 +18,12 @@
 		4AA6D0B118B8D80F00632C77 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA6D09018B8D80F00632C77 /* Cocoa.framework */; };
 		4AA6D0B918B8D80F00632C77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AA6D0B718B8D80F00632C77 /* InfoPlist.strings */; };
 		4AA6D0BB18B8D80F00632C77 /* small_img_searchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6D0BA18B8D80F00632C77 /* small_img_searchTests.m */; };
+		4AA6D0C718BA2CB600632C77 /* BingImageSearchAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA6D0C618BA2CB600632C77 /* BingImageSearchAPI.m */; };
+		4AB2DB7A18C1A4E9000D93F4 /* DownloadImageCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2DB7918C1A4E9000D93F4 /* DownloadImageCellView.m */; };
+		4AB2DB7D18C2513C000D93F4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2DB7C18C2513C000D93F4 /* MainViewController.m */; };
+		4AB2DB8018C253A6000D93F4 /* SmallImgSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AB2DB7F18C253A6000D93F4 /* SmallImgSearch.xib */; };
+		4AB2DB8418C2E539000D93F4 /* SearchedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2DB8318C2E539000D93F4 /* SearchedImage.m */; };
+		4AB2DB8718C2E799000D93F4 /* SearchedImageRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB2DB8618C2E799000D93F4 /* SearchedImageRepository.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +47,8 @@
 		4AA6D09C18B8D80F00632C77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4AA6D09E18B8D80F00632C77 /* small-img-search-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "small-img-search-Prefix.pch"; sourceTree = "<group>"; };
 		4AA6D0A018B8D80F00632C77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		4AA6D0A218B8D80F00632C77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4AA6D0A318B8D80F00632C77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AA6D0A218B8D80F00632C77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = source/AppDelegate.h; sourceTree = "<group>"; };
+		4AA6D0A318B8D80F00632C77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = source/AppDelegate.m; sourceTree = "<group>"; };
 		4AA6D0A618B8D80F00632C77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4AA6D0A818B8D80F00632C77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4AA6D0AE18B8D80F00632C77 /* small-img-searchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "small-img-searchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +56,18 @@
 		4AA6D0B618B8D80F00632C77 /* small-img-searchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "small-img-searchTests-Info.plist"; sourceTree = "<group>"; };
 		4AA6D0B818B8D80F00632C77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4AA6D0BA18B8D80F00632C77 /* small_img_searchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = small_img_searchTests.m; sourceTree = "<group>"; };
+		4AA6D0C518BA2CB600632C77 /* BingImageSearchAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BingImageSearchAPI.h; sourceTree = "<group>"; };
+		4AA6D0C618BA2CB600632C77 /* BingImageSearchAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BingImageSearchAPI.m; sourceTree = "<group>"; };
+		4AA6D0C818BA32FF00632C77 /* BingImageSearchDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BingImageSearchDelegate.h; sourceTree = "<group>"; };
+		4AB2DB7818C1A4E9000D93F4 /* DownloadImageCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadImageCellView.h; sourceTree = "<group>"; };
+		4AB2DB7918C1A4E9000D93F4 /* DownloadImageCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadImageCellView.m; sourceTree = "<group>"; };
+		4AB2DB7B18C2513C000D93F4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4AB2DB7C18C2513C000D93F4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4AB2DB7F18C253A6000D93F4 /* SmallImgSearch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmallImgSearch.xib; sourceTree = "<group>"; };
+		4AB2DB8218C2E539000D93F4 /* SearchedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchedImage.h; sourceTree = "<group>"; };
+		4AB2DB8318C2E539000D93F4 /* SearchedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchedImage.m; sourceTree = "<group>"; };
+		4AB2DB8518C2E799000D93F4 /* SearchedImageRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchedImageRepository.h; sourceTree = "<group>"; };
+		4AB2DB8618C2E799000D93F4 /* SearchedImageRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchedImageRepository.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +133,8 @@
 		4AA6D09618B8D80F00632C77 /* small-img-search */ = {
 			isa = PBXGroup;
 			children = (
+				4AB2DB7E18C25391000D93F4 /* resource */,
+				4AA6D0C418BA2C3200632C77 /* source */,
 				4AA6D0A218B8D80F00632C77 /* AppDelegate.h */,
 				4AA6D0A318B8D80F00632C77 /* AppDelegate.m */,
 				4AA6D0A518B8D80F00632C77 /* MainMenu.xib */,
@@ -152,6 +172,64 @@
 				4AA6D0B718B8D80F00632C77 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AA6D0C418BA2C3200632C77 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				4AB2DB8118C2E4E5000D93F4 /* Model */,
+				4AB2DB7718BF9AF9000D93F4 /* ViewController */,
+				4AB2DB7618BF9AEA000D93F4 /* View */,
+				4AB2DB7518BF9AD9000D93F4 /* Service */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		4AB2DB7518BF9AD9000D93F4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4AA6D0C518BA2CB600632C77 /* BingImageSearchAPI.h */,
+				4AA6D0C618BA2CB600632C77 /* BingImageSearchAPI.m */,
+				4AA6D0C818BA32FF00632C77 /* BingImageSearchDelegate.h */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4AB2DB7618BF9AEA000D93F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AB2DB7818C1A4E9000D93F4 /* DownloadImageCellView.h */,
+				4AB2DB7918C1A4E9000D93F4 /* DownloadImageCellView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4AB2DB7718BF9AF9000D93F4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4AB2DB7B18C2513C000D93F4 /* MainViewController.h */,
+				4AB2DB7C18C2513C000D93F4 /* MainViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4AB2DB7E18C25391000D93F4 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				4AB2DB7F18C253A6000D93F4 /* SmallImgSearch.xib */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		4AB2DB8118C2E4E5000D93F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4AB2DB8218C2E539000D93F4 /* SearchedImage.h */,
+				4AB2DB8318C2E539000D93F4 /* SearchedImage.m */,
+				4AB2DB8518C2E799000D93F4 /* SearchedImageRepository.h */,
+				4AB2DB8618C2E799000D93F4 /* SearchedImageRepository.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB2DB8018C253A6000D93F4 /* SmallImgSearch.xib in Resources */,
 				4AA6D09B18B8D80F00632C77 /* InfoPlist.strings in Resources */,
 				4AA6D0A918B8D80F00632C77 /* Images.xcassets in Resources */,
 				4AA6D0A118B8D80F00632C77 /* Credits.rtf in Resources */,
@@ -252,7 +331,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB2DB7A18C1A4E9000D93F4 /* DownloadImageCellView.m in Sources */,
 				4AA6D0A418B8D80F00632C77 /* AppDelegate.m in Sources */,
+				4AB2DB8718C2E799000D93F4 /* SearchedImageRepository.m in Sources */,
+				4AA6D0C718BA2CB600632C77 /* BingImageSearchAPI.m in Sources */,
+				4AB2DB7D18C2513C000D93F4 /* MainViewController.m in Sources */,
+				4AB2DB8418C2E539000D93F4 /* SearchedImage.m in Sources */,
 				4AA6D09D18B8D80F00632C77 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +548,7 @@
 				4AA6D0C018B8D80F00632C77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AA6D0C118B8D80F00632C77 /* Build configuration list for PBXNativeTarget "small-img-searchTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +557,7 @@
 				4AA6D0C318B8D80F00632C77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
