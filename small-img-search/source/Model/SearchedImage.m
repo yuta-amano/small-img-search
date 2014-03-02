@@ -12,6 +12,7 @@
 
 @property NSMutableData *receivedData;
 @property (copy) void(^finishLoadCallback)(NSData *);
+@property NSURLConnection *connection;
 
 @end
 
@@ -38,7 +39,7 @@
     _finishLoadCallback = callback;
     NSURL *requestUrl = [[NSURL alloc] initWithString:_url];
     NSURLRequest *request = [NSURLRequest requestWithURL:requestUrl cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:30.f];
-    [[NSURLConnection alloc] initWithRequest:request delegate:self];
+    _connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
@@ -50,6 +51,7 @@
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
+    NSLog(@"SearchedImage:image load failure. %@", error);
     [_receivedData setLength:0];
     _finishLoadCallback(_imageData);
 }
